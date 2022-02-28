@@ -1,0 +1,100 @@
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-top: 57px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @include _1300 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @include _1200 {
+    flex-direction: column;
+  }
+
+  @include _992 {
+    position: relative;
+    padding-bottom: 50px;
+  }
+}
+
+.header-nav__wrapp {
+  display: flex;
+  align-items: flex-end;
+
+  @include _1200 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  @include _992 {
+    flex-direction: column;
+  }
+}
+
+.header-nav__logo {
+  width: 135px;
+  height: 90px;
+  margin-left: 13px;
+  margin-right: 45px;
+
+  @include _1300 {
+    margin-left: 7px;
+  }
+
+  @include _992 {
+    margin: 0 auto;
+  }
+}
+
+  @include _660 {
+  .header-nav ul {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+  @include _660 {
+  .header-nav li {
+    margin-bottom: 20px;
+  }
+}
+
+.header-nav__delivery {
+  margin-left: 48px;
+
+  @include _992 {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+  }
+
+  @include _660 {
+    position: static;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+.header-nav__contact {
+  margin-left: auto;
+
+  @include _1200 {
+    margin-top: 20px;
+  }
+
+  @include _992 {
+    margin-top: 70px;
+    margin-right: 60px;
+  }
+
+  @include _660 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}

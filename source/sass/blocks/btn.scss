@@ -1,0 +1,24 @@
+.btn {
+  display: block;
+  font-family: "Franklin Gothic Demi Cond", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 1.0);
+  background-color: #0085cb;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  white-space: normal;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #14519e;
+  }
+
+   &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

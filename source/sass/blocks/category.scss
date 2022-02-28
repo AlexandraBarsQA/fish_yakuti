@@ -1,0 +1,54 @@
+.category li {
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0085cb;
+}
+
+.category a {
+  font-family: inherit;
+  font-size: 25px;
+  color: #0085cb;
+  text-decoration: none;
+  padding-left: 20px;
+
+  @include _660 {
+    padding-left: 0;
+  }
+}
+
+.category__item-active {
+  position: relative;
+  background-color: #14519e;
+  border: none;
+}
+
+.category__item-active::before,
+.category__item-active::after {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  top: 45%;
+}
+
+.category__item-active::before {
+  content: url("../img/triangle-blue.svg");
+  transform: rotate(90deg);
+  left: -5px;
+}
+
+.category__item-active::after {
+  content: url("../img/triangle-blue.svg");
+  transform: rotate(-90deg);
+  right: -5px;
+}
+
+.category__item-active a {
+  color: #ffffff;
+}
+
+.category {
+  @include _660 {
+    text-align: center;
+  }
+}

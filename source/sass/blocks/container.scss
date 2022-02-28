@@ -1,0 +1,62 @@
+.container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+  @include _1370 {
+    max-width: 1200px;
+  }
+
+  @include _1200 {
+    max-width: 970px;
+  }
+
+  @include _992 {
+    max-width: 750px;
+  }
+
+  @include _767 {
+    max-width: 680px;
+  }
+
+  @include _480 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.container--shop {
+  max-width: 1520px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 37px;
+  margin: 0 auto;
+
+  @include _1519 {
+    max-width: 1160px;
+  }
+
+  @include _1200 {
+    max-width: 1120px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @include _1136 {
+    max-width: 760px;
+    }
+
+  @include _776 {
+    max-width: 400px;
+    }
+
+  @include _420 {
+    max-width: 320px;
+    min-height: 2927px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 47px;
+  }
+}

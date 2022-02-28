@@ -1,0 +1,107 @@
+.goods-item {
+  position: relative;
+  padding-left: 20px;
+
+  @include _992 {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+}
+
+.goods-item p {
+  font-family: inherit;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.goods-item__price {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 23px;
+
+  @include _540 {
+    display: block;
+  }
+}
+
+.goods-item__price p {
+  font-size: 25px;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.goods-item__price span {
+  color: #0085cb;
+}
+
+.goods-item__btn {
+  width: 170px;
+  height: 30px;
+
+  @include _540 {
+    margin-top: 20px;
+  }
+}
+
+.goods-item .headline {
+  margin-bottom: 38px;
+}
+
+.goods-item .recipe-label {
+  position: absolute;
+  top: -8px;
+  right: 120px;
+
+  @include _1200 {
+    top: -16px;
+    right: 500px;
+  }
+
+  @include _992 {
+    right: 320px;
+  }
+
+  @include _767 {
+    right: 270px;
+  }
+
+  @include _660 {
+    right: 150px;
+  }
+
+  @include _540 {
+    right: 120px;
+  }
+
+  @include _540 {
+    right: 30px;
+  }
+
+  @include _480 {
+    right: 0;
+  }
+}
+
+.goods-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.goods-item li {
+  position: relative;
+  font-family: inherit;
+  font-size: 20px;
+  padding-left: 13px;
+}
+
+.goods-item li::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #0085cb;
+  top: 7px;
+  left: 0;
+}

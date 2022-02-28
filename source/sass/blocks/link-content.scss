@@ -1,0 +1,14 @@
+.link-content {
+  font-family: inherit;
+  font-size: calc(14px + 3 * (100vw / 1600));
+  color: #0085cb;
+
+  @include _660 {
+    display: block;
+    text-align: center;
+  }
+
+    &:hover {
+      color: #14519e;
+  }
+}

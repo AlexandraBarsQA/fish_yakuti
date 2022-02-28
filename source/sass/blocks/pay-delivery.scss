@@ -1,0 +1,7 @@
+.pay-delivery {
+  width: 600px;
+
+  @include _660 {
+    width: 100%;
+  }
+}

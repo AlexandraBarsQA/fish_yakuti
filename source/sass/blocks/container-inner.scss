@@ -1,0 +1,26 @@
+.container-inner {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 115px;
+
+  @include _992 {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  @include _480 {
+    padding-bottom: 20px;
+  }
+}
+
+.container-inner--goods {
+  padding-bottom: 80px;
+
+  @include _992 {
+    padding-bottom: 50px;
+  }
+
+  @include _992 {
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,32 @@
+.form-order {
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 68px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+
+  @include _1200 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @include _660 {
+
+  }
+
+  @include _540 {
+    width: 100%;
+   }
+}
+
+.form-order h4 {
+  font-family: inherit;
+  font-size: calc(20px + 5 * (100vw / 1600));
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include _660 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,97 @@
+.goods-wrapp {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+
+  @include _1300 {
+    width: 100%;
+  }
+
+  @include _1200 {
+    flex-direction: column;
+    padding-left: 0;
+  }
+}
+
+.goods-wrapp__img {
+  position: relative;
+  max-width: 567px;
+  max-height: 567px;
+
+  @include _660 {
+    max-width: 100%;
+  }
+
+  @include _992 {
+    margin: 0 auto;
+  }
+}
+
+.goods-wrapp__logo {
+  position: absolute;
+  background-image: url("../img/logo_wihte.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 87px;
+  height: 65px;
+  left: 36px;
+  top: 485px;
+  opacity: 0.7;
+
+  @include _660 {
+    left: 5%;
+    top: 82%;
+  }
+
+  @include _540 {
+    width: 70px;
+    height: 52px;
+    top: 75%;
+  }
+
+  @include _480 {
+    top: 70%;
+  }
+
+  @include _420 {
+    top: 65%;
+  }
+}
+
+.goods-wrapp__decs {
+  width: 600px;
+  margin-left: 20px;
+
+  @include _1370 {
+    width: 50%;
+  }
+
+  @include _1200 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  @include _992 {
+    margin-bottom: 50px;
+  }
+}
+
+.goods-wrapp__delivery {
+  margin-top: 25px;
+}
+
+.goods-wrapp__note {
+  position: relative;
+  font-family: inherit;
+  font-size: 16px;
+  padding-left: 30px;
+  margin: 16px 0 0;
+}
+
+.goods-wrapp__note::before {
+  position: absolute;
+  content: "*";
+  left: 20px;
+  color: #0085cb;
+}

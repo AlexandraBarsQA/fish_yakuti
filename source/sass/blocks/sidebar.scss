@@ -1,0 +1,141 @@
+.sidebar {
+  width: 250px;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 34px;
+
+  @include _992 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include _767 {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  @include _660 {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+}
+
+  @include _660 {
+    .sidebar--recipes {
+      width: 250px;
+      margin: 0 auto;
+    }
+  }
+
+.sidebar > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @include _660 {
+    margin: 0 auto;
+  }
+}
+
+ul.sidebar__item {
+  width: 100%;
+
+  @include _992 {
+    width: 300px;
+  }
+
+  @include _767 {
+    width: 250px;
+  }
+
+  @include _660 {
+    margin-top: 35px;
+  }
+}
+
+.sidebar__list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  @include _992 {
+    width: 100%;
+  }
+}
+
+  @include _992 {
+    .sidebar--recipes ul {
+      display: block;
+    }
+  }
+
+  @include _660 {
+    .sidebar--recipes .category {
+      text-align: center;
+    }
+  }
+
+.sidebar__item > li > a {
+  display: block;
+  font-family: inherit;
+  font-size: 25px;
+  color: #0085cb;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0085cb;
+  margin: 0;
+
+  @include _660 {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+li > a.sidebar__user-active {
+  position: relative;
+  width: 250px;
+  color: #ffffff;
+  background-color: #14519e;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+
+  @include _992 {
+    width: 300px;
+  }
+
+  @include _767 {
+    width: 250px;
+  }
+
+  @include _660 {
+    padding-left: 0;
+  }
+}
+
+.sidebar__user-active::before,
+.sidebar__user-active::after {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  top: 45%;
+}
+
+.sidebar__user-active::before {
+  content: url("../img/triangle-blue.svg");
+  transform: rotate(90deg);
+  left: 4px;
+}
+
+.sidebar__user-active::after {
+  content: url("../img/triangle-blue.svg");
+  transform: rotate(-90deg);
+  right: 4px;
+}

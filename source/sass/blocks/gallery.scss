@@ -1,0 +1,27 @@
+.gallery {
+  width: 100%;
+
+  @include _1370 {
+    width: 720px;
+  }
+
+  @include _1300 {
+    width: 640px;
+  }
+
+  @include _992 {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  @include _660 {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+.gallery .catalog__link-temp {
+  background-image: url("../img/logo_wihte.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

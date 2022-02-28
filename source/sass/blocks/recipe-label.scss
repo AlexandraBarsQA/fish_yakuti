@@ -1,0 +1,13 @@
+.recipe-label {
+  display: inline-block;
+}
+
+.recipe-label img {
+  width: 82px;
+  height: 82px;
+
+  @include _660 {
+    width: 80%;
+    height: auto;
+  }
+}

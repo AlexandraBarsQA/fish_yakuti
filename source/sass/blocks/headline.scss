@@ -1,0 +1,23 @@
+.headline {
+  display: inline-block;
+  font-family: "Franklin Gothic Demi", "Arial", sans-serif;
+  font-size: calc(23px + 27 * (100vw / 1600));
+  background: linear-gradient(#0085cb 50%, #075a9b 70%, #0a438b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0085cb;
+  margin: 0;
+
+  @include _660 {
+    text-align: center;
+  }
+}
+
+.headline--small {
+  font-size: calc(24px + 10 * (100vw / 1600));
+  margin-left: 18px;
+
+  @include _660 {
+    margin-left: 0;
+  }
+}

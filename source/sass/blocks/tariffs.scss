@@ -1,0 +1,101 @@
+.tariffs {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 15px;
+  margin-top: 38px;
+
+  @include _660 {
+    flex-direction: column;
+    padding-left: 80px;
+  }
+
+  @include _540 {
+    width: 400px;
+    padding-left: 50px;
+  }
+
+  @include _480 {
+    width: 360px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  @include _420 {
+    width: 175px;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+}
+
+  @include _420 {
+    .tariffs__wrapp {
+      padding: 0;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+
+    @include _480 {
+    .tariffs__wrapp:nth-child(2) {
+      width: 130px;
+    }
+  }
+
+    @include _420 {
+    .tariffs__wrapp:nth-child(2) {
+      width: 175px;
+    }
+  }
+
+.tariffs ul {
+  width: 175px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 21px;
+
+  @include _660 {
+    margin-top: 12px;
+    padding-bottom: 30px;
+  }
+
+  @include _480 {
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+}
+
+.tariffs li {
+  position: relative;
+  font-family: inherit;
+  font-size: 16px;
+  padding-left: 13px;
+}
+
+.tariffs li::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #0085cb;
+  top: 7px;
+  left: 0;
+}
+
+.tariffs__item {
+  font-family: inherit;
+  font-size: 17px;
+  color: #0085cb;
+  margin: 0;
+}

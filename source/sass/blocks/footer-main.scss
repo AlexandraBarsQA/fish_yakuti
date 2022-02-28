@@ -1,0 +1,104 @@
+.footer-main {
+  width: 100%;
+  background-color: #14509b;
+}
+
+.footer-main__wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 43px;
+  padding-left: 50px;
+
+  @include _992 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  @include _660 {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+.footer-main__item {
+  display: block;
+  width: 30%;
+  margin-right: 30px;
+
+  @include _1200 {
+    width: 25%;
+  }
+
+  @include _992 {
+    margin-right: 0;
+  }
+
+  @include _660 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+.footer-main__item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-main__item p,
+.footer-main__item a {
+  font-family: inherit;
+  font-size: calc(14px + 2 * (100vw / 1600));
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-main__item p {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.footer-main__item a {
+  display: block;
+  margin-bottom: 10px;
+
+  &:hover,
+  &focus {
+    color: rgba(255, 255, 255, 0.5);
+    outline: none;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.footer-main__logo {
+  display: block;
+  width: 87px;
+  height: 65px;
+
+  @include _660 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.footer-main__logo img {
+  max-width: 87px;
+  height: 65px;
+}
+
+.footer-main__item h4 {
+  font-family: "Franklin Gothic Demi", "Arial", sans-serif;
+  font-size: calc(14px + 2 * (100vw / 1600));
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 10px;
+}

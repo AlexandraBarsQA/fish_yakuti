@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="44px" height="48px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 44 48"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 50 50">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:2.08;stroke-linecap:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1895410329856">
+   <polygon class="fil0 str0" points="7.04,12.96 3.52,46.56 40.48,46.56 36.96,12.96 "/>
+   <path class="fil0 str0" d="M29.92 17.76c0,-1.19 0,-6.49 0,-7.68 0,-4.77 -3.55,-8.64 -7.92,-8.64 -4.37,0 -7.92,3.87 -7.92,8.64 0,1.19 0,6.49 0,7.68"/>
+   <ellipse class="fil1" cx="29.92" cy="17.76" rx="1.76" ry="1.92"/>
+   <ellipse class="fil1" cx="14.08" cy="17.76" rx="1.76" ry="1.92"/>
+  </g>
+ </g>
+</svg>

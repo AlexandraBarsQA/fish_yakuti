@@ -1,15 +1,79 @@
 @font-face {
-  font-family: "IntroHeadL-Base";
-  src: url("../fonts/introheadl-base-webfont.woff2") format("woff2");
-  src: url("../fonts/introheadl-base-webfont.woff") format("woff");
+  font-family: "Franklin Gothic Book";
+  src: url("../fonts/FRABK.woff2") format("woff2");
+  src: url("../fonts/FRABK.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "IntroHeadR-Base";
-  src: url("../fonts/introheadr-base-webfont.woff2") format("woff2");
-  src: url("../fonts/introheadr-base-webfont.woff") format("woff");
-  font-weight: 700;
+  font-family: "Franklin Gothic Book italic";
+  src: url("../fonts/FRABKIT.woff2") format("woff2");
+  src: url("../fonts/FRABKIT.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Demi";
+  src: url("../fonts/FRADM.woff2") format("woff2");
+  src: url("../fonts/FRADM.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Demi Cond";
+  src: url("../fonts/FRADMCN.woff2") format("woff2");
+  src: url("../fonts/FRADMCN.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Demi italic";
+  src: url("../fonts/FRADMIT.woff2") format("woff2");
+  src: url("../fonts/FRADMIT.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url("../fonts/FRAHV.woff2") format("woff2");
+  src: url("../fonts/FRAHV.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Heavy italic";
+  src: url("../fonts/FRAHVIT.woff2") format("woff2");
+  src: url("../fonts/FRAHVIT.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url("../fonts/framd.woff2") format("woff2");
+  src: url("../fonts/framd.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Medium Cond";
+  src: url("../fonts/FRAMDCN.woff2") format("woff2");
+  src: url("../fonts/FRAMDCN.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Medium italic";
+  src: url("../fonts/framdit.woff2") format("woff2");
+  src: url("../fonts/framdit.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }

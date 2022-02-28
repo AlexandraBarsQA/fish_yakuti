@@ -1,0 +1,36 @@
+.offers {
+  display: flex;
+
+  @include _1200 {
+    flex-direction: column;
+  }
+}
+
+.offers article {
+  display: block;
+
+  @include _660 {
+    text-align: center;
+  }
+}
+
+.offers--together article {
+  width: 100%;
+
+  @include _660 {
+    text-align: center;
+  }
+}
+
+.offers .catalog__list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  @include _1200 {
+    width: 750px;
+  }
+
+  @include _992 {
+    width: 100%;
+  }
+}

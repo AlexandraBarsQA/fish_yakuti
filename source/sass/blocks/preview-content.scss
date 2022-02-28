@@ -1,0 +1,21 @@
+.preview-content {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 115px;
+
+  @include _1300 {
+    margin-bottom: 30px;
+  }
+
+  @include _660 {
+    margin-bottom: 0px;
+  }
+}
+
+.preview-content--gallery {
+  margin-top: 33px;
+}
+
+.preview-content__item {
+  margin-top: 33px;
+}

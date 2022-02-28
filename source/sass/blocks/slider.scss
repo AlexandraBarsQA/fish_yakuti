@@ -1,0 +1,110 @@
+.slider {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+
+  @include _1300 {
+    width: 1160px;
+  }
+
+  @include _1200 {
+    width: 970px;
+  }
+
+  @include _992 {
+    width: 750px;
+  }
+
+  @include _767 {
+    width: 100%;
+  }
+}
+
+.slider__item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider__desc {
+  position: absolute;
+  left: 50px;
+
+  @include _1300 {
+    left: 120px;
+  }
+
+  @include _992 {
+    left: 90px;
+  }
+}
+
+
+/* Кнопки вперед и назад */
+
+
+.slider__toggle {
+  position: absolute;
+  width: 23px;
+  height: 46px;
+  top: 45%;
+  transition: 0.7s ease;
+  cursor: pointer;
+
+  @include _660 {
+    width: 15px;
+    height: 38px;
+    top: 40%;
+  }
+}
+
+.slider__toggle--prev {
+  content: url("../img/arrow_left.svg");
+  left: -62px;
+
+  @include _1370 {
+    left: -35px;
+  }
+
+  @include _1300 {
+    content: url("../img/arrow_left-white.svg");
+    left: 20px;
+    opacity: 0.7;
+  }
+
+  @include _767 {
+    left: 30px;
+  }
+}
+
+.slider__toggle--next {
+  content: url("../img/arrow_right.svg");
+  background-repeat: no-repeat;
+  right: -59px;
+
+  @include _1370 {
+    right: -35px;
+  }
+
+  @include _1300 {
+    content: url("../img/arrow_right-white.svg");
+    right: 23px;
+    opacity: 0.7;
+  }
+
+  @include _767 {
+    right: 33px;
+  }
+
+  @include _660 {
+    right: 30px;
+  }
+}

@@ -1,0 +1,74 @@
+.text-slider {
+  width: 355px;
+  color: #ffffff;
+
+  @include _1200 {
+    width: 700px;
+  }
+
+  @include _992 {
+    width: 480px;
+  }
+
+  @include _767 {
+    width: 400px;
+  }
+
+  @include _660 {
+    width: 380px;
+  }
+
+  @include _540 {
+    display: none;
+  }
+}
+
+.text-slider h3 {
+  font-family: "Franklin Gothic Demi", "Arial", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: calc(20px + 30 * (100vw / 1600));
+
+  @include _767 {
+    font-size: calc(20px + (30 + 30 * 0.7) * ((100vw - 320px) / 1600));
+    margin-bottom: 10px;
+  }
+}
+
+.text-slider p,
+.text-slider span {
+  font-family: inherit;
+  font-size: calc(12px + 13 * (100vw / 1600));
+  margin: 0;
+}
+
+.text-slider span {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 23px;
+
+  @include _1200 {
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+
+  @include _767 {
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+}
+
+.text-slider__btn {
+  width: 170px;
+  text-decoration: none;
+
+  @include _992 {
+    width: 120px;
+  }
+
+  @include _660 {
+    margin-left: 170px;
+    margin-top: -35px;
+  }
+}

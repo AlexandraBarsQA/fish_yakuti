@@ -1,0 +1,29 @@
+.block-delivery {
+  display: flex;
+  width: 100%;
+  min-height: 150px;
+  background-color: #eff3f8;
+
+  @include _480 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.block-delivery .delivery-car img {
+  width: 185px;
+  height: 80px;
+  margin-left: 5px;
+  margin-top: 30px;
+
+  @include _480 {
+    margin-left: 5px;
+  }
+}
+
+  @include _480 {
+  .block-delivery .delivery-car a {
+    width: 185px;
+  }
+}

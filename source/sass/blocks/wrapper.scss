@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 1370px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+@include _1370 {
+  .wrapper {
+    width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@include _1200 {
+  .wrapper {
+    width: 970px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@include _992 {
+  .wrapper {
+    width: 750px;
+  }
+}
+
+@include _767 {
+  .wrapper {
+    width: none;
+  }
+}

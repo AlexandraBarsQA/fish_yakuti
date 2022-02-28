@@ -1,0 +1,37 @@
+.list-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @include _992 {
+
+  }
+
+  @include _660 {
+    text-align: center;
+  }
+}
+
+.list-product li {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 25px;
+  padding-left: 42px;
+
+  @include _992 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.list-product a {
+  color: #19478e;
+
+  @include _992 {
+
+  }
+}
+
+a.list-product__link-active {
+  color: #000000;
+  text-decoration: none;
+}

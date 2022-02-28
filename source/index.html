@@ -6,196 +6,324 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>Rostochek</title>
-  <link rel="preload" href="fonts/introheadl-base-webfont.woff2" as="font">
-  <link rel="preload" href="fonts/introheadr-base-webfont.woff2" as="font">
+  <meta name="viewport" content="width=device-width; initial-scale=0.85; maximum-scale=0.85; user-scalable=0;">
+  <title>fish-yakuti</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="header-main">
-    <div class="header-nav header-main__wrap">
-     <div class="header-nav__phone contact">
-        <a class="contact__link site-text" href="" title="телефон">+7 (4912) 25-37-17</a>
-        <a class="contact__link contact__link--sound site-text site-text--sound" href="" title="гимн">наш гимн</a>
-      </div>
-      <nav class="header-nav__kinderes">
-        <a class="header-nav__logo" href="index.html" title="логотип"><img src="img/logo.svg" alt="логотип" width="245" height="64"></a>
-        <ul class="kinder-garten">
+  <header class="header-pattern">
+      <nav class="container header-nav">
+        <div class="header-nav__wrapp">
+        <a class="header-nav__logo logo-header" title="">
+          <img src="img/logo-new.svg" alt="">
+        </a>
+        <ul class="nav-main">
           <li>
-            <a class="kinder-garten__link" href="rostochek-pavlov.html" title="сад на павлова">детский сад<br> <span>на Павлова</span></a>
+            <a href="shop.html" title="">О магазине</a>
           </li>
           <li>
-            <a class="kinder-garten__link" href="rostochek-wood.html" title="сад в роще">детский сад<br> <span>в Роще</span></a>
+            <a href="recipes.html" title="">Рецепты</a>
           </li>
           <li>
-            <a class="kinder-garten__link kinder-garten__link--mini" href="rostochek-mini.html" title="мини-ясли"><span>мини-ясли</span><br>крошечки<br> хорошечки</a>
+            <a href="how-buy.html" title="">Как купить?</a>
           </li>
         </ul>
-      </nav>
-    </div>
-    <div class="nav-bottom">
-      <div class="nav-bottom__wrap site-nav">
-      <ul class="site-nav__list headline headline--middle">
-        <li>
-          <a href="about-us-gardeners.html" title="о нас">О нас</a>
-        </li>
-        <li>
-          <a href="parents-education.html" title="родителям">Родителям</a>
-        </li>
-        <li>
-          <a href="" title="дополнительное образование">Дополнительное образование</a>
-        </li>
-        <li>
-          <a href="reviews.html" title="отзывы">Отзывы</a>
-        </li>
-        <li>
-          <a href="" title="контакты">Контакты</a>
-        </li>
-      </ul>
-        <a class="site-nav__link-button button-request" href="" title="заявка">оставить заявку</a>
+        <a class="header-nav__delivery delivery-car" href="" title="">
+          <img src="img/car.png" alt="">
+        </a>
       </div>
-  </div>
-  </header>
-  <main class="main-index">
-    <div class="main-index__wrap">
-    <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <img class="swiper-slide" src="img/foto-slider1.jpg" alt="слайдер-1" width="1280">
-        <img class="swiper-slide" src="img/foto-slider2.jpg" alt="слайдер-2" width="1280">
-        <img class="swiper-slide" src="img/foto-slider3.jpg" alt="слайдер-3" width="1280">
-    </div>
-    <div class="swiper-container__pagination">
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-  </div>
-       <div class="swiper-container__preview">
-        <section class="preview-kinder">
-          <h1 class="preview-kinder__title headline">Детский сад "Росточек"</h1>
-          <p class="preview-kinder__text site-text">Это уникальное место появилось  в Рязани около 20 лет назад. Наш «Росточек» уже посещают дети первых выпускников! В детском саду с годами сложились и поддерживаются замечательные семейные традиции.</p>
-          <p class="preview-kinder__text preview-kinder__text--second site-text">В основе принципов воспитания детей — вальдорфская педагогика, успешно адаптируемая основателями к постоянно меняющимся условиям современной жизни.</p>
-          <a class="preview-kinder__more site-text site-text--more">Подробнее о нас</a>
-        </section>
-          <div class="video-block-opt">
-            <iframe src="https://www.youtube.com/embed/krKb9sB4x6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="header-nav__contact contact-header">
+          <a href="" title="">+7 (910) 635-44-33</a>
+          <div class="contact-header__cart">
+            <a href="basket.html" title="">
+              <img src="img/basket.svg" alt="" width="43" height="47">
+              <span>5</span>
+            </a>
           </div>
-      </div>
-    </div>
-    <div class="main-wrap main-wrap--light">
-      <section class="main-wrap__bottom add-education">
-        <h3 class="add-education__title headline headline--center">Дополнительное образование от 3-х лет</h3>
-        <ul class="add-education__list add-education__list--up">
+        </div>
+      </nav>
+    <div class="nav-inner">
+      <div class="container nav-inner__wrap nav-inner__wrap--closed nav-inner__wrap--no-js">
+        <button class="nav-inner__toggle" type="button" aria-label="Открыть/скрыть меню"></button>
+        <ul class="site-nav">
           <li>
-            <a class="add-education__link headline headline--middle" href="" title="занятия">Развивающие занятия</a>
-            <p class="add-education__subtitle site-text site-text--center">для детей</p>
+            <a href="catalog.html" title="">рыба</a>
           </li>
           <li>
-            <a class="add-education__link headline headline--middle" href="" title="мастер-классы">Мастер-классы</a>
-            <p class="add-education__subtitle site-text site-text--center">для взрослых и детей</p>
+            <a href="catalog.html" title="">деликатесы</a>
           </li>
           <li>
-            <a class="add-education__link headline headline--middle" href="" title="беседы">Педагогические беседы</a>
-            <p class="add-education__subtitle site-text site-text--center">для родителей</p>
+            <a href="catalog.html" title="">икра</a>
+          </li>
+          <li>
+            <a href="catalog.html" title="">морепродукты</a>
+          </li>
+          <li>
+            <a href="catalog.html" title="">полуфабрикаты</a>
+          </li>
+          <li>
+            <a href="catalog.html" title="">дары природы</a>
+          </li>
+          <li>
+            <a href="catalog.html" title="">хлеб</a>
+          </li>
+          <li>
+            <a href="catalog.html" title="">сувениры</a>
           </li>
         </ul>
-        <ul class="add-education__list add-education__list--bottom">
-          <li class="add-education__item add-education__item--wood">
-            <a class="add-education__link headline headline--middle" href="" title="мастерская">Столярная мастерская</a>
-            <p class="add-education__subtitle site-text site-text--center">Работа с деревом, корой.<br> Изготовление простых игрушек.</p>
-            <p class="add-education__subtitle add-education__text add-education__text--timetable site-text site-text--center">Понедельник<br> с 17.00 до 18.00<br> от 5,5 лет</p>
+        <div class="nav-inner__search search-form">
+          <input type="search" id="search" placeholder="Поиск...">
+          <input type="image" src="img/loupe.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="preview-content">
+      <section class="slider">
+        <h1 class="visually-hidden">Слайдер продукции</h1>
+          <div class="slider__item">
+            <a class="slider__link" href="" title="">
+              <img src="img/chavicha-slider.jpg" alt="">
+            </a>
+            <div class="slider__desc text-slider">
+              <h3>Чавыча</h3>
+              <p>«Королевский лосось» высоко ценится среди кулинаров и считается деликатесом. Мясо чавычи ни с чем не спутать, оно малиново-красного цвета, удивительно вкусное, нежное и сочное.</p>
+              <span>от 210 ₽ / 100 гр</span>
+              <a class="btn text-slider__btn" href="" title="">Заказать</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <a class="slider__link" href="" title="">
+              <img src="img/chavicha-slider2.jpg" alt="">
+            </a>
+            <div class="slider__desc text-slider">
+              <h3>Сёмга</h3>
+              <p>«Королевский лосось» высоко ценится среди кулинаров и считается деликатесом. Мясо чавычи ни с чем не спутать, оно малиново-красного цвета, удивительно вкусное, нежное и сочное.</p>
+              <span>от 210 ₽ / 100 гр</span>
+              <a class="btn text-slider__btn" href="" title="">Заказать</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <a class="slider__link" href="" title="">
+              <img src="img/chavicha-slider3.jpg" alt="">
+            </a>
+            <div class="slider__desc text-slider">
+              <h3>Нерка</h3>
+              <p>«Королевский лосось» высоко ценится среди кулинаров и считается деликатесом. Мясо чавычи ни с чем не спутать, оно малиново-красного цвета, удивительно вкусное, нежное и сочное.</p>
+              <span>от 210 ₽ / 100 гр</span>
+              <a class="btn text-slider__btn" href="" title="">Заказать</a>
+            </div>
+          </div>
+        <a class="slider__toggle slider__toggle--prev" onclick="minusSlide()"></a>
+        <a class="slider__toggle slider__toggle--next" onclick="plusSlide()"></a>
+      </section>
+      <section class="preview-content__item container shop">
+        <h2 class="headline">Друзья, здравствуйте!</h2>
+        <a class="link-content shop__link" href="shop.html" title="">О магазине</a>
+        <ul class="shop__list">
+          <li>
+            <p>В мае 2019 года мы открыли <a href="" title="">магазин</a> «Рыба Якутии» в центре Рязани для того, чтобы познакомить жителей города с натуральными продуктами, которые изготовавливают из сырья, добываемого на Севере нашей необъятной страны. Это различные виды промысловой <a href="" title="">рыбы</a> северных рек, продукты из <a href="" title="">оленины</a>, дикого кабана, красная и чёрная <a href="" title="">икра</a>, <a href="" title="">креветки</a>, <a href="" title="">краб</a>, а также разнообразные <a href="" title="">лакомства</a> из северных ягод, орехов, много-много других вкусных и полезных продуктов — всего и не переслислить, лучше увидеть и попробовать.</p>
           </li>
-          <li class="add-education__item add-education__item--liza">
-            <a class="add-education__link headline headline--middle" href="" title="арт-студия">Арт-студия Лизы Волхонцевой</a>
-            <p class="add-education__subtitle site-text site-text--center">Различные техники работы с красками. Пастель. Восковые мелки.<br> Лепка. Аппликация.</p>
-            <p class="add-education__subtitle add-education__text add-education__text--timetable site-text site-text--center">Среда, четверг<br> с 18.00 до 19.00<br> от 4 лет</p>
+          <li>
+            <p>Постепенно наш магазин полюбился рязанцам, а продукция завоевала сердца и вкусы наших друзей, да-да, потому что наши покупатели — наши настоящие друзья.</p>
+            <p>Мы активно начали продвижение магазина и приём заказов на доставку в <a href="" title="">Инстаграм</a>. Ассортимент нашего магазина постоянно расширяется.</p>
+            <p>Мы решили, что вам будет удобнее познакомиться со всей нашей продукцией, <a href="" title="">сделать заказ</a> и оформить <a href="" title="">доставку</a> на сайте.</p>
+          </li>
+          <li>
+            <p>Мы собрали информацию, провели фотосессии, готовили сами и делились вашими <a href="" title="">рецептами</a>, а теперь объединили всё это здесь.</p>
+            <p>Сгруппировали в удобный <a href="" title="">каталог</a> продукцию, подготовили «вкусные» фотографии и захватывающие описания. И приглашаем вас всё это посмотреть и попробовать! Вы можете заказать <a href="" title="">деликатесы</a> для себя или собрать <a href="" title="">подарочные наборы</a> для своих близких. А также оформить доставку до двери. <a href="" title="">Оплата заказа</a> производится при вручении удобным для вас способом.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="preview-content__item container catalog">
+        <h2 class="headline">Предлагаем попробовать</h2>
+        <a class="link-content shop__link" href="recipes.html" title="">Рецепты</a>
+        <ul class="catalog__list catalog__list--col4">
+          <li class="catalog__item catalog__item--hit">
+            <a class="" href="goods.html" title="">
+              <img src="img/salmon-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Сёмга х/к</p>
+                <span>255 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="goods.html" title="">
+              <img src="img/chavicha-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Чавыча с/м</p>
+                <span>210 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="" title="">
+              <img src="img/nerka.jpg" alt="">
+              <div class="catalog__text">
+                <p>Нерка х/к</p>
+                <span>160 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="" title="">
+              <img src="img/nelma.jpg" alt="">
+              <div class="catalog__text">
+                <p>Нельма х/к</p>
+                <span>158 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item">
+            <a class="" href="" title="">
+              <img src="img/sirup-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Сосновый сироп</p>
+                <span>155 ₽ / 130 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="" title="">
+              <img src="img/ikra.jpg" alt="">
+              <div class="catalog__text">
+                <p>Икра осетра</p>
+                <span>4900 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item--promo">
+            <a class="" href="" title="">
+              <img src="img/pelmeni.jpg" alt="">
+              <div class="catalog__text">
+                <p>Пельмени с тунцом</p>
+                <span>73 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item--hit">
+            <a class="" href="" title="">
+              <img src="img/ikra-harius.jpg" alt="">
+              <div class="catalog__text">
+                <p>Икра хариуса</p>
+                <span>2000 ₽ / 250 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="" title="">
+              <img src="img/salmon-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Пелядь вяленая</p>
+                <span>140 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item--hit">
+            <a class="" href="" title="">
+              <img src="img/salo-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Сало кабана</p>
+                <span>210 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item--recipe">
+            <a class="" href="" title="">
+              <img src="img/harius.jpg" alt="">
+              <div class="catalog__text">
+                <p>Хариус с/с</p>
+                <span>140 ₽ / 100 гр</span>
+              </div>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a class="" href="" title="">
+              <img src="img/oil-small.jpg" alt="">
+              <div class="catalog__text">
+                <p>Масло кедровое</p>
+                <span>550 ₽ / 100 мл</span>
+              </div>
+            </a>
           </li>
         </ul>
       </section>
     </div>
+    <div class="back-main"></div>
   </main>
   <footer class="footer-main">
-    <div class="footer-main__wrap partner">
-      <p class="partner__text site-text site-text--partner">Фото и видео: мама <a class="partner__link" href="" title="фото и видео">Елизавета Волхонцева</a>. Слова гимна: мама <a class="partner__link" href="" title="слова гимна">Элла Хрусталёва</a>.</p>
-    <p class="partner__text partner__text--business site-text">В вашем бизнесе всё <a class="partner__link" href="#" title="родителям">работает само</a></p>
-  </div>
+      <div class="container footer-main__wrap">
+        <article class="footer-main__item">
+          <a class="footer-main__logo" href="" title="">
+            <img src="img/logo_wihte.svg" alt="" width="87" height="65">
+          </a>
+          <p>ИП Шаров М.К.<br> ОГРН 319623400008101<br> ИНН 620802837709</p>
+          <a href="" title="">Контактная информация</a>
+        </article>
+        <article class="footer-main__item">
+          <h4>Каталог</h4>
+          <ul>
+            <li>
+              <a href="goods.html" title="">Северная рыба</a>
+            </li>
+            <li>
+              <a href="" title="">Деликатесы из дичи</a>
+            </li>
+            <li>
+              <a href="" title="">Икра, краб</a>
+            </li>
+            <li>
+              <a href="" title="">Полуфабрикаты</a>
+            </li>
+            <li>
+              <a href="" title="">Дикоросы</a>
+            </li>
+            <li>
+              <a href="" title="">Сувениры</a>
+            </li>
+          </ul>
+        </article>
+        <article class="footer-main__item">
+          <ul class="nav-footer">
+            <li>
+              <a href="shop.html" title="">О магазине</a>
+            </li>
+            <li>
+              <a href="recipes.html" title="">Рецепты</a>
+            </li>
+            <li>
+              <a href="" title="">Как купить</a>
+            </li>
+          </ul>
+          <ul class="pay">
+            <li>
+              <a href="" title="">Порядок заказа и покупки</a>
+            </li>
+            <li>
+              <a href="" title="">Способоы оплаты</a>
+            </li>
+            <li>
+              <a href="" title="">Доставка</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    <div class="footer-social">
+      <div class="container footer-social__wrap">
+        <ul class="social">
+          <li>
+            <a href="" title=""><img src="img/inst.svg" alt="инстаграм">@rybayakutii</a>
+          </li>
+          <li>
+            <a href="" title=""><img src="img/whatsapp.svg" alt="ватсап">+7 (910) 635-44-33</a>
+          </li>
+        </ul>
+        <p>В вашем бизнесе всё <a class="footer-social__link" href="#" title="">работает само</a></p>
+      </div>
+    </div>
   </footer>
-  <script src="js/swiper.min.js"></script>
-  <script>
-    var myPlugin = {
-      name: 'debugger',
-      params: {
-        debugger: false,
-      },
-      on: {
-        init: function () {
-          if (!this.params.debugger) return;
-          console.log('init');
-        },
-        click: function (e) {
-          if (!this.params.debugger) return;
-          console.log('click');
-        },
-        tap: function (e) {
-          if (!this.params.debugger) return;
-          console.log('tap');
-        },
-        doubleTap: function (e) {
-          if (!this.params.debugger) return;
-          console.log('doubleTap');
-        },
-        sliderMove: function (e) {
-          if (!this.params.debugger) return;
-          console.log('sliderMove');
-        },
-        slideChange: function () {
-          if (!this.params.debugger) return;
-          console.log('slideChange', this.previousIndex, '->', this.activeIndex);
-        },
-        slideChangeTransitionStart: function () {
-          if (!this.params.debugger) return;
-          console.log('slideChangeTransitionStart');
-        },
-        slideChangeTransitionEnd: function () {
-          if (!this.params.debugger) return;
-          console.log('slideChangeTransitionEnd');
-        },
-        transitionStart: function () {
-          if (!this.params.debugger) return;
-          console.log('transitionStart');
-        },
-        transitionEnd: function () {
-          if (!this.params.debugger) return;
-          console.log('transitionEnd');
-        },
-        fromEdge: function () {
-          if (!this.params.debugger) return;
-          console.log('fromEdge');
-        },
-        reachBeginning: function () {
-          if (!this.params.debugger) return;
-          console.log('reachBeginning');
-        },
-        reachEnd: function () {
-          if (!this.params.debugger) return;
-          console.log('reachEnd');
-        },
-      },
-    };
-  </script>
-  <script>
-    Swiper.use(myPlugin);
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      // Enable debugger
-      debugger: true,
-    });
-  </script>
-  </body>
+  <script src="js/script-slider.min.js"></script>
+</body>
 </html>
